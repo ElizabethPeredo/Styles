@@ -1,0 +1,22 @@
+/* ====================
+    * FOOTER *
+==================== */
+ footer {
+	 background: black;
+	 text-align: center;
+	 margin-top: 1em;
+	 padding: 1em;
+}
+ footer p, footer i {
+	 padding: 0.5em;
+	 color: white;
+	 text-align: center;
+}
+ footer i.fa {
+	 font-size: 1.5rem;
+}
+ footer i:hover, footer a:hover {
+	 color: var(--color1);
+	 background: transparent;
+}
+ 

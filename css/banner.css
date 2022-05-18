@@ -1,0 +1,60 @@
+/* ====================
+    * BANNER *
+==================== */
+
+.banner {
+  width: 100%;
+  overflow: hidden;
+  min-height: var(--heigh-banner);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 3rem;
+  flex-direction: column;
+  background-color: var(--color1);
+  background-image: var(--background-img);
+}
+
+.banner .h1 {
+  max-width: 80%;
+  margin: 0rem;
+  padding: 1rem;
+  font-family: var(--font-banner);
+  text-shadow: 2px 2px black;
+  font-size: 3rem;
+  text-align: center;
+  color: var(--color2);
+  line-height: 4rem;
+}
+
+banner div.author {
+  font-size: 1.5rem;
+  left: 0em;
+}
+
+banner div.author mark {
+  background: var(--color2);
+}
+
+
+@media screen and (max-width: 1200px) {
+  main.banner {
+    padding: 0.5rem;
+  }
+
+  main.banner .h1 {
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  banner {
+    min-height: 20rem;
+  }
+
+  main.banner .h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}

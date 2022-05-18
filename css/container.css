@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+:root {
+    --font-text: 'Quicksand', sans-serif;
+}
+
+.container__center {
+    margin: auto;
+    min-height: 100vh;
+}
+
+.container__apple {
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 10px;
+}
+
+.container__apple .screen {
+    position: relative;
+    background: #3e3e3e;
+    border-radius: 15px;
+}
+
+.container__apple .screen:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+    z-index: -1;
+}
+
+.container__apple .screen-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #4d4d4f;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.container__apple .screen-header-left {
+    margin-right: auto;
+}
+
+.container__apple .screen-header-button {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-right: 1em;
+    border-radius: 8px;
+    background: white;
+}
+
+.container__apple .screen-header-button.close {
+    background: #ed1c6f;
+}
+
+.container__apple .screen-header-button.maximize {
+    background: #e8e925;
+}
+
+.container__apple .screen-header-button.minimize {
+    background: #74c54f;
+}
+
+.container__apple .screen-body {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.container__apple .screen-body form>* {
+    background: transparent;
+    border: none;
+    margin: 0.1rem;
+    padding: 0.1rem;
+}
+
+.container__apple .screen-body form input:hover {
+    border: none;
+}
+
