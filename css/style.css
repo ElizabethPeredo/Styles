@@ -513,7 +513,6 @@ button,
   color: #fff;
   border-radius: 7px;
   margin: auto;
-  box-shadow: -10px 20px 15px -10px var(--gray);
 }
 
 button.circle {
