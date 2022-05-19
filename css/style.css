@@ -6,9 +6,7 @@
 @import "diagram.css";
 @import "card.css";
 @import "banner.css";
-@import "navbar.css";
-@import "landing-page.css";
-@import "responsive.css";
+
 *,
 *::after,
 *::before {
