@@ -571,7 +571,7 @@ legend {
   padding: 0.5em;
 }
 
-input {
+input, textarea {
   border: 0.1rem solid var(--color1);
 }
 input:hover {
