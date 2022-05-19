@@ -2,7 +2,8 @@
     * CARDS *
 ==================== */
 :root {
-  --heigh-post: 20rem;
+  --heigh-min-post: 20rem;
+  --heigh-max-post: 20rem;
   --width-post: 18rem;
   --heigh-img:8rem;
 }
@@ -68,8 +69,8 @@
   overflow: hidden;
   min-width: var(--width-post);
   max-width: var(--width-post);
-  min-height: var(--heigh-post);
-  max-height: var(--heigh-post);
+  min-height: var(--heigh-min-post);
+  max-height: var(--heigh-max-post);
 
   line-height:1rem;
   align-self: flex-start;
@@ -163,10 +164,10 @@
 .container__post {
   width: 100%;
   /*height: 100vh;*/
-  display: flex;
   transition: all 200ms ease-in-out;
   display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-items: center;
 }
 /*====================================*/
 /* * SLIDE * */
@@ -219,7 +220,7 @@
 
 @media (max-width: 768px) {
   :root {
-    --heigh-post: 20rem;
+    --heigh-max-post: 20rem;
     --width-post: 25rem;
     --heigh-img:10rem;
   }
