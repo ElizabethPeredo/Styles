@@ -12,6 +12,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 5rem;
+    background-color: var(--color2);
 }
 
 .landing__container-navbar {
@@ -27,7 +28,8 @@
 
 .landing__container-content * {
     font-family: 'Poppins', sans-serif;
-
+    color: var(--color22);
+    box-shadow: none;
 }
 
 .landing__container-content {
