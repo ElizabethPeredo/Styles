@@ -3,9 +3,7 @@
 =================*/
 @import "root.css";
 @import "grid.css";
-@import "diagram.css";
 @import "card.css";
-@import "banner.css";
 
 *,
 *::after,
