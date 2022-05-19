@@ -165,6 +165,7 @@ body::-webkit-scrollbar-thumb {
 ==================== */
 mark,
 .btn,
+.btn-post,
 button,
 figcaption,
 b,
@@ -513,7 +514,14 @@ button,
   border-radius: 7px;
   margin: auto;
 }
+.btn-post{
+  cursor: pointer;
+  background: var(--color1);
+  color: var(--color11);
+  border-radius: 7px;
+  padding: 2px;
 
+}
 button.circle {
   border-radius: 50%;
   height: 2em;
@@ -523,7 +531,8 @@ button.circle {
 }
 
 button:hover,
-.btn:hover {
+.btn:hover,
+.btn-post:hover {
   background: var(--gray);
   color: black;
 }
