@@ -1025,7 +1025,37 @@ pale-teal,
   border: solid 0.3em var(--light-gray);
 }
 
+/* =================
+*RESPONSIVE*
+=================*/
 
-@media (max-width: 750px) {
-  
+@media (max-width: 1200px) {
+  :root {
+    --font-size: 1rem;
+  }
+  .container__small,
+  .container__medium,
+  .container__slide {
+    min-width: 100%;
+    padding: 0 0.5em;
+    /*margin: 0em auto !important;*/
+  }
+  .container {
+    min-width: 100%;
+    padding: 2em;
+    /*margin: 0em auto !important;*/
+  }
+  article {
+    box-shadow: none;
+    padding: 0.5rem;
+    margin: 0rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .container__small,
+  .container__medium,
+  .container__slide {
+    padding: 0 0.1em;
+  }
 }
