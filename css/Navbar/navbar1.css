@@ -33,6 +33,9 @@
 	 cursor: pointer;
 	 text-align: center;
 }
+.navbar__icon{
+	display: none;
+}
  .navbar__icon i {
 	 cursor: pointer;
 	 margin-left:.5rem;
@@ -96,6 +99,9 @@
 	 }
 	.navbar__container {
 		padding: 0.5rem 1rem;
+	}
+	.navbar__icon{
+		display:inline-block;
 	}
 	.navbar__icon i#menu-bars {
 		display:inline-block;
