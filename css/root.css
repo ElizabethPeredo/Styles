@@ -111,8 +111,8 @@
 =================*/
   --color1: var(--red);
   --color2: var(--gray);
-  --color11: var(--white);
-  --color22: var(--black);
+  --color11: white;
+  --color22: white;
   --color-nav: var(--black);
   /* *BACKGROUND* */
   --bg-navbar: #ffffff;
