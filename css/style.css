@@ -4,6 +4,7 @@
 @import "root.css";
 @import "grid.css";
 @import "container.css";
+
 *,
 *::after,
 *::before {
@@ -19,6 +20,7 @@
   font-family: var(--font-body);
   margin: 0;
 }
+
 /* =================
 *GENERAL STYLES*
 =================*/
@@ -121,6 +123,7 @@ body::-webkit-scrollbar-thumb {
   padding: 2rem;
   margin-right: 5rem;
 }
+
 .container__large {
   width: 100%;
   margin: 0em auto;
@@ -145,6 +148,7 @@ body::-webkit-scrollbar-thumb {
 .no-padding {
   padding: 0;
 }
+
 .no-margin {
   margin: 0;
 }
@@ -160,6 +164,7 @@ body::-webkit-scrollbar-thumb {
   align-items: stretch;
   flex-wrap: nowrap;
 }
+
 /* ====================
     * TEXT *
 ==================== */
@@ -233,11 +238,20 @@ blockquote {
 pre {
   margin-top: 0em !important;
   margin-bottom: 0em !important;
-  white-space: pre-wrap;       /* Since CSS 2.1 */
-   white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-   white-space: -pre-wrap;      /* Opera 4-6 */
-   white-space: -o-pre-wrap;    /* Opera 7 */
-   word-wrap: break-word; 
+  white-space: pre-wrap;
+  /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  background-image: linear-gradient(180deg, #eee 50%, #fff 50%);
+  background-size: 100% 48px;
+  background-position: 0 14px;
+  line-height: 1.4rem;
+  padding: 1rem;
 }
 
 hr {
@@ -311,6 +325,7 @@ svg,
 video {
   vertical-align: middle;
 }
+
 img,
 figure img {
   padding: 0.5rem;
@@ -331,6 +346,7 @@ figure img {
   visibility: visible;
   display: block !important;
 }
+
 .invisible {
   display: none;
   visibility: hidden;
@@ -366,7 +382,6 @@ article.top {
 article .code {
   border-radius: 1em 1em 0em 0em;
   border: none;
-  background: var(--color2);
   width: auto;
   margin: 1em 0em 0em 0em;
 }
@@ -389,14 +404,13 @@ blockquote cite {
   text-align: right;
 }
 
-blockquote > * {
+blockquote>* {
   color: black;
 }
 
 /* ====================
     * CODE, MARK *
 ==================== */
-code,
 mark,
 kbd,
 samp,
@@ -420,6 +434,7 @@ code[class*="language-"],
 pre[class*="language-"] {
   padding: 0em 0.4em !important;
 }
+
 kbd {
   border: 0.1em solid var(--gray);
 }
@@ -473,6 +488,7 @@ table {
   line-height: 1rem;
   margin: 0.5em 0em;
 }
+
 table ul {
   padding-left: 1em;
   margin: 0em;
@@ -488,10 +504,12 @@ table th {
   border: 1px solid var(--gray);
   padding: 0.3em;
 }
+
 table td,
 table td * {
   text-align: left;
 }
+
 table th {
   background: var(--color1);
   color: var(--white);
@@ -519,15 +537,17 @@ button,
   border-radius: 7px;
   margin: auto;
 }
-.btn-post{
+
+.btn-post {
   cursor: pointer;
   background: var(--color1);
   color: var(--color11);
   font-size: 1rem;
   padding: 0.3em;
-  margin-bottom:1rem;
+  margin-bottom: 1rem;
 
 }
+
 button.circle {
   border-radius: 50%;
   height: 2em;
@@ -556,8 +576,8 @@ fieldset {
   align-items: stretch;
 }
 
-form > *,
-fieldset > * {
+form>*,
+fieldset>* {
   padding: 0.5rem;
   font-size: var(--font-size);
   margin: 0.2rem 0.5rem;
@@ -580,9 +600,11 @@ legend {
   padding: 0.5em;
 }
 
-input, textarea {
+input,
+textarea {
   border: 0.1rem solid var(--color1);
 }
+
 input:hover {
   border: 0.1rem solid var(--color2);
 }
@@ -599,6 +621,7 @@ datalist {
   appearance: button;
   outline: none;
 }
+
 datalist:after,
 select:after {
   position: absolute;
@@ -608,9 +631,11 @@ select:after {
   width: 0;
   height: 0;
 }
+
 option {
   padding: 2rem;
 }
+
 progress[value] {
   appearance: none;
   margin: 0 0 1.5em;
@@ -1048,6 +1073,7 @@ pale-teal,
   :root {
     --font-size: 1rem;
   }
+
   .container__small,
   .container__medium,
   .container__slide {
@@ -1055,11 +1081,13 @@ pale-teal,
     padding: 0 0.5em;
     /*margin: 0em auto !important;*/
   }
+
   .container {
     min-width: 100%;
     padding: 2em;
     /*margin: 0em auto !important;*/
   }
+
   article {
     box-shadow: none;
     padding: 0.5rem;
@@ -1068,6 +1096,7 @@ pale-teal,
 }
 
 @media (max-width: 850px) {
+
   .container__small,
   .container__medium,
   .container__slide {
