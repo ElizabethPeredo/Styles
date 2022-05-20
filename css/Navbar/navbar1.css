@@ -47,12 +47,14 @@
 	 color: var(--black);
 	 background: var(--gray);
 }
-.navbar__icon i:hover{
+.navbar__icon i:hover,
+.navbar__icon .i:hover{
 	transform: rotate(360deg);
 	color: var(--black);
 	 background: var(--color1);
 }
-.navbar__icon i#menu-bars {
+.navbar__icon i#menu-bars,
+.navbar__icon .i#menu-bars {
 	display:none;
 }
 .navbar__items ul,
