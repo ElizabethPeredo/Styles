@@ -105,7 +105,8 @@
   .navbar__icon {
     display: inline-block;
   }
-  .navbar__icon i#menu-bars {
+  .navbar__icon i#menu-bars,
+  .navbar__icon .i#menu-bars {
     display: inline-block;
   }
 
