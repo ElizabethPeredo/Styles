@@ -468,6 +468,13 @@ meter::-webkit-meter-optimum-value {
   margin: 2em;
 }
 
+.margin-top {
+  margin-top: 2em;
+}
+.margin-bottom {
+  margin-bottom: 2em;
+}
+
 .no-margin-bottom {
   margin-bottom: 0em;
 }
