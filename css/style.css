@@ -393,7 +393,7 @@ article .code {
 blockquote {
   margin: 1rem 0rem;
   border-left: 16px solid var(--color1);
-  background: var(--color2);
+  /*background: var(--color2);*/
   padding: 1rem;
 }
 
@@ -405,7 +405,7 @@ blockquote cite {
 }
 
 blockquote>* {
-  color: black;
+  color: var(--color11);
 }
 
 /* ====================

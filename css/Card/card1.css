@@ -32,12 +32,14 @@
   margin: 0em;
   padding: 0em;
 }
-
+.card-post__top img,
 .card-post__img {
   margin: 0em;
   padding: 0em;
   width: 100%;
   height: var(--heigh-img);
+  min-height:var(--heigh-img);
+  max-height: var(--heigh-img);
   top: 0;
   object-fit: cover;
 }
