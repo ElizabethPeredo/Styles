@@ -236,8 +236,6 @@ blockquote {
 }
 
 pre {
-  margin-top: 0em !important;
-  margin-bottom: 0em !important;
   white-space: pre-wrap;
   /* Since CSS 2.1 */
   white-space: -moz-pre-wrap;
@@ -250,8 +248,9 @@ pre {
   background-image: linear-gradient(180deg, #eee 50%, #fff 50%);
   background-size: 100% 48px;
   background-position: 0 14px;
-  line-height: 1.4rem;
-  padding: 1rem;
+  padding: 0!important;
+  padding: 0!important;
+  line-height: 1.38rem;
 }
 
 hr {
@@ -283,14 +282,14 @@ summary.h3 {
 h1,
 summary.h1,
 .h1 {
-  font-size: 1.9rem;
+  font-size: 2.2rem;
   font-family: var(--font-title);
   color: black;
 }
 
 h2,
 summary.h2 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 h3,
@@ -393,7 +392,8 @@ article .code {
 blockquote {
   margin: 1rem 0rem;
   border-left: 16px solid var(--color1);
-  /*background: var(--color2);*/
+  background: var(--light-gray);
+  color: black;
   padding: 1rem;
 }
 
@@ -405,7 +405,7 @@ blockquote cite {
 }
 
 blockquote>* {
-  color: var(--color11);
+  color: black;
 }
 
 /* ====================
@@ -417,7 +417,7 @@ samp,
 small,
 span {
   font-weight: bold;
-  padding: 1em;
+  padding: 0.1em;
   margin: 0em;
   background: var(--light-gray);
   border-radius: 2px;
@@ -432,7 +432,7 @@ code * {
 
 code[class*="language-"],
 pre[class*="language-"] {
-  padding: 0em 0.4em !important;
+  padding: 0em !important;
 }
 
 kbd {
@@ -440,6 +440,7 @@ kbd {
 }
 
 span {
+  padding: 0em;
   color: var(--color1);
   background: transparent;
 }
@@ -541,7 +542,8 @@ button,
   font-weight: 700;
   color: #fff;
   border-radius: 7px;
-  margin: auto;
+  margin: 1rem auto;
+  display: inline-block;
 }
 
 .btn-post {
