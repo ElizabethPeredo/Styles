@@ -24,6 +24,9 @@
 .navbar__logo {
   justify-self: start;
   font-size: 1.5rem;
+  display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 .navbar__logo a {
   font-family: var(--font-logo);
@@ -31,7 +34,8 @@
   font-weight: bold;
   color: var(--black);
   cursor: pointer;
-  text-align: center;
+  text-align: left;
+  
 }
 .navbar__icon {
   display: none;
